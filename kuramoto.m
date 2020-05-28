@@ -19,7 +19,7 @@ for i=1:nn
             
                 dy(i) = dy(i) + (kk/nn)*sin(y(j)-y(i));
                 
-               % disp((kk/nn)*sin(y(j)-y(i)));
+                disp((kk/nn)*sin(y(j)-y(i)))
     end
 end
 
